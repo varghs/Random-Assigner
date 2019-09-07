@@ -1,23 +1,17 @@
-class Dog {
+let teams = []
+let team1 = []
+let team2 = []
+let team3 = []
+let team4 = []
+
+let players = []
+Class Player {
   constructor(name) {
     this._name = name;
-    this._behavior = 0;
+    this._teamNum = Math.random()
   }
 
   get name() {
     return this._name;
   }
-  get behavior() {
-    return this._behavior;
-  }   
-
-  incrementBehavior() {
-    this._behavior ++;
-  }
 }
-const halley = new Dog('Halley');
-console.log(halley.name); // Print name value to console
-console.log(halley.behavior); // Print behavior value to console
-halley.incrementBehavior(); // Add one to behavior
-console.log(halley.name); // Print name value to console
-console.log(halley.behavior); // Print behavior value to console
