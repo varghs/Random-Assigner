@@ -15,3 +15,11 @@ Class Player {
     return this._name;
   }
 }
+const player1 = Player("A")
+const player2 = Player("B")
+const player3 = Player("C")
+const player4 = Player("D")
+const player5 = Player("E")
+const player6 = Player("F")
+const player7 = Player("G")
+const player8 = Player("H")
