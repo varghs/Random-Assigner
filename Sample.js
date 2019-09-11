@@ -62,10 +62,10 @@ let player8 = {
 // sets up players array
 const players = [player1, player2, player3, player4, player5, player6, player7, player8]
 
-function assignPlayers() {
-  for (let i = 0; i < ranNums.length; i++) {
-    for(let j = 0; j < players.length; j++) {
-
+for (let i = 0; i < teams.length; i++) {
+  for(let j = 0; j < players.length; j++) {
+    if(players[j].teamNum === i) {
+        teams[i].push(players[j])
+      }
     }
   }
-}
