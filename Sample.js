@@ -65,7 +65,7 @@ const players = [player1, player2, player3, player4, player5, player6, player7, 
 for (let i = 0; i < teams.length; i++) {
   for(let j = 0; j < players.length; j++) {
     if(players[j].teamNum === i) {
-        teams[i].push(players[j])
+        teams[i].push(players[j].name)
       }
     }
   }
