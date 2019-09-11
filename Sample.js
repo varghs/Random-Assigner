@@ -18,7 +18,7 @@ function shuffle(array) {
     return array;
 }
 
-var ranNums = shuffle([1,2,3,4,1,2,3,4]);
+var ranNums = shuffle([0,1,2,3,0,1,2,3]);
 // sets up teams array and individual teams
 let team1 = [];
 let team2 = [];
@@ -69,3 +69,7 @@ for (let i = 0; i < teams.length; i++) {
       }
     }
   }
+console.log(team1)
+console.log(team2)
+console.log(team3)
+console.log(team4)
